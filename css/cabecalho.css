@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Proxima Nova;
+    src: url(./font/proxima-nova.otf);
+}
+body{
+    font-family: Proxima Nova;
+}
+.cabecalho{
+    background-color: black;
+}
+.container-cabecalho{
+    margin: 0 10em 0 10em;
+}
+.titulo-img{
+    width: 200px;
+}

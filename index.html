@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresso.com</title>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/jquery-migrate-3.3.2.js"
+    integrity="sha256-BDmtN+79VRrkfamzD16UnAoJP8zMitAz093tvZATdiE="
+    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/base/normalize.css">
+    <link rel="stylesheet" href="./css/base/reset.css">
+    <link rel="stylesheet" href="./css/cabecalho.css">
+    <link rel="stylesheet" href="./css/rodape.css">
+    <link rel="stylesheet" href="./css/destaque.css">
+    <link rel="stylesheet" href="./css/outros.css">
+
+
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container-cabecalho">
+            <h1 class="titulo-cabecalho">
+                <object class="titulo-img" data="./css/image/titulo.svg" type="image/svg+xml"></object>
+            </h1>
+        </div>        
+    </header>
+    <main>
+        <section class="destaque"> 
+            <div data-background-destaque>
+                <div class="container-destaque" data-container-destaque>
+                    
+                    <div data-img-destaque></div>                
+                    <div class="sobre-destaque">
+                        <h1 class="titulo-destaque" data-titulo-destaque></h1>
+                        <small class="titulo-original-destaque" data-titulo-original-destaque></small>
+
+                        <p class="genero" data-genero></p>
+                        <p class="indicacao" data-indicacao></p>
+                        <p class="sinopse" data-sinopse></p>
+                        <p class="direcao" data-direcao></p>
+                        <p class="elenco" data-elenco></p>
+
+                        <button class="button-destaque" data-button-destaque><i class="fa fa-caret-right"></i> Assistir Trailer</button>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <section class="outros">
+            <img src="./css/image/prev.png" alt="prev" class="arrow" id="arrow-prev">
+                <div class="container-outros" data-container-outros>
+                    <h2 class="titulo-outros">Assista Também</h2>  
+                    <div class="carrossel-filmes" data-carrossel-filmes ></div>
+                </div>
+            <img src="./css/image/next.png" alt="next" class="arrow" id="arrow-next">
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="container-rodape">
+            <object class="rodape-img" data="./css/image/logo.svg" type="image/svg+xml"></object>
+        </div>
+    </footer>
+
+    
+    <script type="text/javascript" src="./slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./js/requisicao.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+.back-destaque{
+    width: 100%;
+}
+.container-destaque{
+    margin: 0 245px;
+    padding: 45px 0 45px 0;
+    display: flex;  
+}
+.img-destaque{
+    width: 250px;
+    height: 370px;
+    margin-right: 30px; 
+}
+.sobre-destaque{
+    color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.titulo-destaque{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: -18px;
+}
+.titulo-original-destaque{
+    font-size: 16px;
+    margin-top: -18px;
+}
+.texto-destaque{
+    display: flex;
+    flex-direction: column;
+}
+.genero,.indicacao{
+    font-size: 13px;
+}
+.sinopse{
+    font-size: 14px;
+    font-style: oblique;
+}
+.direcao, .elenco{
+    font-size: 12px;
+}
+
+.button-destaque{
+    border: 0;
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+    font-weight: bold;
+}
+.button-destaque:focus{
+    outline: none;
+}
+.button-destaque:hover{
+    transform: scale(1.09);
+}
